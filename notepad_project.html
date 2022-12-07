@@ -1,0 +1,94 @@
+<html>
+<head>
+<title>NOTEPAD</title>
+</head>
+<body  bgcolor="ffdead">
+<style>
+h1{
+pading-top:40px;
+pading-bottom:40px;
+text-align:center;
+color:green;
+}
+div{
+text-align:center;
+}
+button  {
+margin-bottom:10px;
+}
+  textarea {
+pading=3%;
+border-color:black;
+border-width:thick;
+}
+.flex-box {
+          display:flex;
+          justify-content:center;
+}
+
+</style>
+<div class="container">
+<div class="vartical-center">
+<h1>NOTEPADE_TEXTAREA</h1>
+<button style=background-color:skyblue;
+      onclick="f1()"
+       data-placement="top"
+                      title="Bold Text">
+                                                                Bold </button>
+<button style=background-color:skyblue;
+        onclick="f2()"
+        data-placement="top"
+	title="Italic Text">
+			Italic</button>
+<button style=background-color:skyblue;
+	onclick="f3()"
+	data-placement="top"
+        title="Left Align">
+			<i class="left">|| &nbsp &nbsp </i></button>
+<button style=background-color:skyblue;
+        onclick="f4()"
+	data-placement="top"
+	title="Center Align">
+			<i class="center">&nbsp || &nbsp</i></button>
+<button style=background-color:skyblue;
+	onclick="f5()"
+	data-placement="top"
+	title="Right Align">
+			<i class="right">&nbsp &nbsp ||</i></button>
+<button style=background-color:skyblue;
+	onclick="f6()"
+	data-placement="top"
+	title="Uppercase Text">
+			Upper Case</button>
+<button style=background-color:skyblue;
+	onclick="f7()"
+	data-placement="top"
+	title="Lowercase Text">
+			Lower Case</button>
+<button style=background-color:skyblue;
+	onclick="f8()"
+	data-placement="top"
+	title="Capitalize Text">
+			Capitalize</button>
+<button style=background-color:skyblue;
+        onclick="f9()"
+	data-placement="top"
+	title="top">
+			Clear Text</button>
+<br> 
+
+<div class="flex-box">
+<textarea id="textarea1"
+		class="input shadow"
+		name="name"
+		rows="30"
+		cols="150"
+placeholder="Your text here ">
+			 </textarea>
+	
+	<script src="project.js"></script>
+           
+</div>
+</body>
+
+</html>
